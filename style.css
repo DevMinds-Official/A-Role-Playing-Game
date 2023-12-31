@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    margin: 12px auto;
+}
+.container{
+    border: 2px solid white;
+    color: white;
+    width: 45vw;
+    margin: 30px auto;
+}
+#userstats{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+
+}
+.stat{
+    font-size: 20px;
+}
+hr{
+    width: 95%;
+    margin: 12px auto;
+}
+#controls{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+#controls button{
+    background-color: red;
+    width: 9rem;
+    height: 2em;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+.monsterStatic{
+    color: yellow;
+    display: none;
+}
+.monsterStatic span{
+    margin:10px 20px ;
+}
+#text{
+    text-align: center;
+    margin: 20px 0;
+}
